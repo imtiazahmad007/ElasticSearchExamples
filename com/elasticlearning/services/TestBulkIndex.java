@@ -24,7 +24,7 @@ import com.elasticlearning.models.User.Gender;
 import com.elasticlearning.models.User.Name;
 
 
-public class TestBulkElastic {
+public class TestBulkIndex {
 
 	public static void main(String [] args) throws JsonParseException, JsonMappingException, IOException{
 		
