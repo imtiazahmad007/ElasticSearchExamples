@@ -1,3 +1,5 @@
+package com.elasticlearning.services;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
