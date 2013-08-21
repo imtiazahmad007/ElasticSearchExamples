@@ -1,3 +1,5 @@
+package com.elasticlearning.models;
+
 import java.io.IOException;
 import java.io.OutputStream;
 
