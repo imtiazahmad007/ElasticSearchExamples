@@ -120,7 +120,14 @@ FACETS:
 # facets can count by more complex groupings, such as spans of time, nest filters, and even include full, 
 # nested, elasticsearch queries!
 
-
+FILTERS:
+# While queries describe which documents appear in results and how they are to be scored, filters only describe 
+# which documents appear in results. This can result in a significantly faster query. Additionally, some criteria 
+# can only be specified via a filter, no query equivalent exists. Filters can be used to optimize a query by 
+# efficiently cutting down the result set without executing relatively expensive scoring calculations. Filters may 
+# also be used in the case where a term must be matched against, but contribution to the document’s overall score 
+# should be be a fixed amount regardless of the TF/IDF score. Additionally, unlike queries, filters may be 
+# cached, leading to significant performance gains when repeatedly invoked.
 
 
 
